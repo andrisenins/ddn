@@ -22,7 +22,7 @@ html {
 body{
 	width: 900px;
 	margin: auto;
-	margin-top: 50px;
+	margin-top: 30px;
 }
 
 header{
@@ -31,15 +31,15 @@ header{
 }
 
 #mainNav{
-	margin: 50px 0px;
+	margin: 60px 0px;
 	text-align: center;
 }
 
 .mainNav-a{
 	text-decoration: none;
 	margin: 10px 20px;
-	padding: 40px;
-	border-radius: 50px;
+	padding: 50px;
+	border-radius: 100px;
 	background-color: rgba(255,255,255,0.3);
 	color: black;
 	border: 1px solid rgba(255,255,255,0.4);
@@ -99,7 +99,7 @@ aside div:hover{
 
 #fullmenu div{
     height: 50px;
-	background-color: rgba(255,255,255,0.7);
+	background-color: rgba(255,255,255,0.5);
 	border-radius: 5px;
 	margin: 0px 0px 5px;
 	padding: 10px;
@@ -110,6 +110,9 @@ aside div:hover{
 }
 
 footer{
-	padding: 10px;
-	clear: both;
+	position: fixed;
+	bottom: 0px;
+	right: 10px;
+	z-index: -999;
+	color: #8e908e;
 }
