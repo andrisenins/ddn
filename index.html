@@ -5,22 +5,22 @@
 	<meta charset="utf-8">
 	<title>DDN</title>
 	<link rel="stylesheet" href="css/style.css">
-	<script type="text/javascript" src="js/pageController.js"></script> <!-- page navigation functions -->°
+	<script type="text/javascript" src="js/pageController.js"></script> <!-- page navigation functions -->
 	<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script> <!-- Library -->
 </head>
 
 <body>
-<header class="testborder">
+<header>
 	
-	<div id="logoplace" class="testborder">
+	<div id="logoplace">
 		<a href="#home" id="menu-home" onclick="openMenu('home'); return false"><img src="img/panda-logo.jpg" alt="Street"/></a> <!-- Later will replace -->
 	</div>
-	<nav class="testborder">
+	<nav id="mainNav">
 		<a href="#fixpixel" onclick="openMenu('fixpixel'); return false;"></a>
-		<a href="#we" id="menu-we" onclick="openMenu('we'); return false;">| Mēs |</a>
-		<a href="#plan" id="menu-plan" onclick="openMenu('plan'); return false;">| Programma |</a>
-		<a href="#media" id="menu-media" onclick="openMenu('media'); return false;">| Video un Bildes |</a>
-		<a href="#qa" id="menu-qa" onclick="openMenu('qa'); return false;">| Q & A |</a>
+		<a class="mainNav-a" href="#we" id="menu-we" onclick="openMenu('we'); return false;">Mēs</a>
+		<a class="mainNav-a" href="#plan" id="menu-plan" onclick="openMenu('plan'); return false;">Plāni</a>
+		<a class="mainNav-a" href="#media" id="menu-media" onclick="openMenu('media'); return false;">Ziņas</a>
+		<a class="mainNav-a" href="#qa" id="menu-qa" onclick="openMenu('qa'); return false;">BUJ</a>
 	</nav>
 
 </header>

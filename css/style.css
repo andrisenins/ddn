@@ -30,6 +30,25 @@ header{
 	text-align: center;
 }
 
+#mainNav{
+	margin: 50px 0px;
+	text-align: center;
+}
+
+.mainNav-a{
+	text-decoration: none;
+	margin: 10px 20px;
+	padding: 40px;
+	border-radius: 50px;
+	background-color: rgba(255,255,255,0.3);
+	color: black;
+	border: 1px solid rgba(255,255,255,0.4);
+}
+
+.mainNav-a:hover{
+	background-color: rgba(255,255,255,0.7);
+}
+
 #logoplace{
 	margin-bottom: 30px;
 }
